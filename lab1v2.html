@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruce Peninsula Ice Cream Spots</title>
+
+    <!-- link to bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+    <!-- set background as a photo, shadow to make text more readable  -->
+<style>
+    body {
+        background: url('https://images6.alphacoders.com/546/546552.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+    }
+    h1, p, a {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+</style>
+
+<body class="bg-light">
+    <!-- container -->
+    <div class="container text-center my-5">
+        <!-- heading -->
+        <h1 class="mb-4"
+            style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+            Discover the Best Ice Cream in Bruce Peninsula</h1>
+
+        <!-- Bruce peninsula map -->
+        <img src="https://store.avenza.com/cdn/shop/files/20220218183614_Bruce_Peninsula_v5_GeoTif_preview_0.jpg?v=1723822295" 
+             class="img-fluid rounded mb-4"
+             style="width: 50%; max-width: 300px;">
+
+        <!-- Paragraph -->
+        <p class="mb-4"
+            style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+            Kick back with ice cream after a hot summers day in the Bruce Peninsula! Below, I'll share my top picks, and resources to explore!
+
+        <!-- geoJson link -->
+        <div>
+            <a href="C:\Users\emily\OneDrive\Documents\GitHub\ggr472\icecream_spots.geojson" 
+            class="btn btn-link"
+            style="color: white;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); font-size: 1.5rem;">
+            View GeoJSON file containing point data of Ice Cream Stores in Bruce Peninsula</a>
+        </div>
+
+        <div class="my-5"></div>
+
+        <!-- rec #1 - Lloyds! -->
+        <div class="container text-center">
+            <div class="row justify-content-center align-items-center">
+                <!-- name and description -->
+                <div class="col-md-6">
+                    <h2 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Bruce's Best Ice Cream</h2>
+                    <h4 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">#1</h4>
+                    <p class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Lloyds Shop and Pool Hall is my number one pick! Located in Wiarton, from the outside this pool hall and smoke shop doesn't look like much, but inside, they sell scoops and pints of the best small-batch ice cream around. Stop in for a scoop of a unique flavour and take a walk to see Wiarton Willie!
+                    </p>
+                <!-- Button with map link -->
+                    <a href="https://maps.app.goo.gl/G5iKJQba7wvBu8A28" target="_blank" class="btn btn-primary mx-2">Map</a>
+                </div>
+                <!-- lloyds picture -->
+                <div class="col-md-4">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d1/48/4c/restoration-of-historic.jpg" 
+                        class="img-fluid rounded mb-4"
+                        style="width: 100%; max-width: 300px;">
+                        
+                </div>
+            </div>
+        </div>
+
+         <!-- rec #2 - Big Bay ice cream! -->
+        <div class="container text-center">
+            <div class="row justify-content-center align-items-center">
+                <!-- name and description -->
+                <div class="col-md-6">
+                    <h2 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Big Bay Ice Cream</h2>
+                    <h4 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        #2</h4>
+                    <p class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Big Bay General Store is worth the stop for a scoop of ice cream and a picturesque view. The ice cream is fresh churned onsite and never disappoints. Bring your bathing suit to jump of the pier!
+                    </p>
+                <!-- Button with map link -->
+                    <a href="https://maps.app.goo.gl/jFkBDXWJncsGGBz6A" target="_blank" class="btn btn-primary mx-2">Map</a>
+                </div>
+                <!-- big bay picture -->
+                <div class="col-md-4">
+                    <img src="https://www.visitgrey.ca/sites/default/files/styles/medium/public/2023-08/big-bay-ice-cream_0.jpg?itok=lZ5DPP9I" 
+                        class="img-fluid rounded mb-4"
+                        style="width: 100%; max-width: 300px;">
+                        
+                </div>
+            </div>
+        </div>
+
+        <!-- rec #3 - Sauble beach house! -->
+        <div class="container text-center">
+            <div class="row justify-content-center align-items-center">
+                <!-- name and description -->
+                <div class="col-md-6">
+                    <h2 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Sauble Beach House and Cafe</h2>
+                    <h4 class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        #3</h4>
+                    <p class="mb-4"
+                        style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+                        Sauble Beach House is the place to be at sunset on any summer's evening. Serving Kawartha Dairy Ice cream, this spot makes the list because the location is so perfect. Sauble beach is known for beautiful sunsets that paint the sky incredble colours, pick up a cone and watch the natural show. 
+                    
+                    </p>
+                <!-- Button with map link -->
+                    <a href="https://maps.app.goo.gl/EuPpmDH9Q1NbyV1g7" target="_blank" class="btn btn-primary mx-2">Map</a>
+                </div>
+                <!-- big bay picture -->
+                <div class="col-md-4">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/8f/c9/15/811-lakeshore-sauble.jpg" 
+                        class="img-fluid rounded mb-4"
+                        style="width: 100%; max-width: 300px;">
+                        
+                </div>
+            </div>
+        </div>
+
+        <!-- link to more reccomendations-->
+        <div>
+        <p class="mb-4"
+            style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+            Discover your own favourites! Follow the link below for more great reccomendations for ice cream in the bruce peninsula area.
+        </p>
+        <a href="https://www.google.com/search?sca_esv=f94ce9e8bf588227&rlz=1C1CHBF_enCA947CA952&sxsrf=AHTn8zoJK--Fh8ceZx1flo8tJ096V-yBKQ:1737926156902&q=bruce+peninsula+ice+cream&source=lnms&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBvRU_c8CYw0YyGBU6UN-VqoqPYaI3HSL1XTvQrW6xFSpDynrpKQiVV66Ukg1bgzVqHGvulf5F5Yessq1oh4KsFBzd-yN7_STmFSahWXeKJyRrY_3r7XGvtNiWAVi_RKKPOOrLGUTm7HCMM3efatI07SqmxmPXt5SvNF7rd2oMKlvgmrRPg&sa=X&ved=2ahUKEwixl-m5p5SLAxWHGDQIHUnYOZkQ0pQJegQIBxAB&biw=1536&bih=730&dpr=1.25" 
+            class="btn btn-link"
+            style="color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); font-size: 1.5rem;">Ice Cream Reccomendations</a>
+        <div>
+    </div>
+</body>
+
+</html>
